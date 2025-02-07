@@ -1,13 +1,13 @@
 {
-  "author": "UIUX Lab",
-  "email": "uiuxlab@gmail.com",
+  "author": "Felixent Lab",
+  "email": "felixent.mm@gmail.com",
   "name": "fullstack-nextjs-app-template",
   "version": "1.4.2",
   "description": "A full-stack sample web application based on Next.js that creates a simple whole-website architecture.",
   "main": "next.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xizon/fullstack-nextjs-app-template.git"
+    "url": "git+https://github.com/felixent/nextproject-sample.git"
   },
   "keywords": [
     "typescript",
@@ -39,6 +39,7 @@
     "destroy": "pm2 stop ecosystem.config.js & pm2 delete ecosystem.config.js"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.4.1",
     "axios": "^1.7.2",
     "cors": "^2.8.5",
     "express": "^4.18.1",
@@ -66,7 +67,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xizon/fullstack-nextjs-app-template/issues"
+    "url": "https://github.com/felixent/nextproject-sample/issues"
   },
-  "homepage": "https://github.com/xizon/fullstack-nextjs-app-template#readme"
+  "homepage": "https://github.com/felixent/nextproject-sample#readme"
 }

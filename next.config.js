@@ -16,7 +16,7 @@ if (dockerDeploymentEnabled) exportHtmlEnabled = false;
 //
 const nextConfig = {
     reactStrictMode: true,
-    swcMinify: true,
+    swcMinify: false,
 
 
     // Use the "https://yourusername.github.io/my-subdirectory/ " in production and localhost for development.
